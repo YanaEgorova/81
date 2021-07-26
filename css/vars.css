@@ -1,0 +1,17 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --sub-text-color: #fff;
+  --accent-color: red;
+
+  --main-text-color: #000;
+
+  --first-brand-color: #7bd5f5;
+  --second-brand-color: #787ff6;
+  --third-brand-color: #4adede;
+
+  --main-font: 'Open Sans Condensed';
+  --title-font: 'Otomanopee One';
+
+  font-size: 62.5%;
+}

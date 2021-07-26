@@ -1,0 +1,39 @@
+.about__wrapper {
+  background-color: var(--third-brand-color);
+}
+.about  {
+  padding: 5rem 0;
+}
+.about .list {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .item  {
+  background: rgba( 255, 255, 255, 0.40 );
+  box-shadow: 0 .8rem 3.2rem 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( .4rem );
+  -webkit-backdrop-filter: blur( .4rem );
+  border-radius: 1rem;
+  border: .1rem solid rgba( 255, 255, 255, 0.18 );
+  padding: 4rem;
+}
+.about .text {
+  margin: 0;
+  text-align: center;
+  max-width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .about .list{
+    display: flex;
+    justify-content: space-between;
+    max-width:100%;
+  }
+  .about .item  {
+    padding: 2rem 1rem;
+    width: 19.5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+}

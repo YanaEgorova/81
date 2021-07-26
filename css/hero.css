@@ -1,0 +1,24 @@
+.hero__wrapper {
+  background-color: var(--first-brand-color);
+}
+.hero {
+  padding: 10rem 0 5rem;
+  position: relative;
+}
+.hero .img {
+  max-width:30rem;
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    display: flex;
+    text-align: left;
+    justify-content: center; 
+  }
+  .hero .img {
+    margin: 0;
+    margin-right: 7rem;
+  }
+  .hero .btn {
+    margin-left: 0;
+  }
+}
